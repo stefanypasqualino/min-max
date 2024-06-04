@@ -1,0 +1,22 @@
+h1 {text-align: center;}
+#vol {width: 50%;}
+#j1 {width: 50%;}
+@media screen and (max-width: 500px){
+	body {background-color: dimgray;}
+}
+@media screen and (min-width: 500px){
+	body {background-color: red;}
+}
+@media screen and (min-width: 500px){
+	h1 {color:grey;
+    font-size: 300%;}
+}
+
+#vol {border:solid 5px red}
+#j1 {border:solid 5px red}
+h1 {border:solid 3px red}
+
+@media screen and (max-width: 768px){
+	h1 {font-size:300%;
+    color:white;}
+}
